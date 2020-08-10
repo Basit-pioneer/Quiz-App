@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="innerDiv">
+            <h1 id="heading">Quiz Test</h1>
+            <h3 id="h1">T.Marks: 20</h3>
+            <h3 id="h2">Sub: G.Knowledge</h3> 
+        </div>
+
+        <br><br>
+
+        <fieldset>
+        <h3>which is the biggest city of pakistan?</h3>
+        <input type="radio" value="Karachi" name="city" id="right_answer_1">
+        <label for="Karachi">Karachi</label><br>
+        <input type="radio" value="Lahore" name="city" id="q1_opt1">
+        <label for="Lahore">Lahore</label><br>
+        <input type="radio" value="Multan" name="city" id="q1_opt2">
+        <label for="Multan">Multan</label><br>
+        <input type="radio" value="Faisalabad" name="city" id="q1_opt3">
+        <label for="Faisalabad">Faisalabad</label>
+        </fieldset>
+
+        <br><br>
+         
+        <fieldset>
+        <h3>Which is biggest country in the world in papulation?</h3>
+        <input type="radio" value="Pakistan" name="country" id="q2_opt1">
+        <label for="Pakistan">Pakistan</label><br>
+        <input type="radio" value="India" name="country" id="q2_opt2">
+        <label for="India">India</label><br>
+        <input type="radio" value="America" name="country" id="q2_opt3">
+        <label for="America">America</label><br>
+        <input type="radio" value="China" name="country" id="right_answer_2">
+        <label for="China">China</label>
+        </fieldset>  
+
+        <br><br>
+
+        <fieldset>
+            <h3>Pakaistan independence date is...</h3>
+            <input type="radio" value="14 Of August" name="date" id="right_answer_3">
+            <label for="14 Of August">14 Of August</label><br>
+            <input type="radio" value="16 Of August" name="date" id="q2_opt1">
+            <label for="16 Of August">16 Of August</label><br>
+            <input type="radio" value="18 Of August" name="date" id="q2_opt2">
+            <label for="18 Of August">18 Of August</label><br>
+            <input type="radio" value="22 Of August" name="date" id="q2_opt3">
+            <label for="22 Of August">22 Of August</label>
+            </fieldset> 
+            
+            <br><br>
+
+            <fieldset>
+                <h3>In which season we feel hot?</h3>
+                <input type="radio" value="summer" name="Seasons" id="right_answer_4">
+                <label for="summer">Summer</label><br>
+                <input type="radio" value="Autum" name="Seasons" id="q2_opt1">
+                <label for="Autum">Autum</label><br>
+                <input type="radio" value="Spring" name="Seasons" id="q2_opt2">
+                <label for="Spring">Spring</label><br>
+                <input type="radio" value="Winter" name="Seasons" id="q2_opt3">
+                <label for="Winter">Winter</label>
+                </fieldset>  
+
+                <br><br>
+
+                <fieldset>
+                    <h3>How many months of the year?</h3>
+                    <input type="radio" value="14" name="months" id="q2_opt1">
+                    <label for="14">14</label><br>
+                    <input type="radio" value="12" name="months" id="q2_opt2">
+                    <label for="12">10</label><br>
+                    <input type="radio" value="10" name="months" id="right_answer_5">
+                    <label for="10">12</label><br>
+                    <input type="radio" value="8" name="months" id="q2_opt3">
+                    <label for="8">8</label>
+                    </fieldset>  
+
+
+                    <h3 id="footer">View your availed scores & percentage</h3>
+
+                    <button id="btn" onclick="result()">Submit</button>
+
+    </div>
+
+    
+</body>
+
+<script src="app.js"></script>
+</html>
